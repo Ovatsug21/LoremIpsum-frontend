@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ClienteComponent } from './components/cliente/cliente.component';
+import { EnderecoComponent } from './components/endereco/endereco.component';
+import { ClienteFormComponent } from './components/cliente-form/cliente-form.component';
+import { EnderecoFormComponent } from './components/endereco-form/endereco-form.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ClienteComponent,
+    EnderecoComponent,
+    ClienteFormComponent,
+    EnderecoFormComponent
   ],
   imports: [
     BrowserModule,
