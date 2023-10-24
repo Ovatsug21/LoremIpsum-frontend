@@ -9,6 +9,7 @@ import { EnderecoComponent } from './components/endereco/endereco.component';
 import { ClienteFormComponent } from './components/cliente-form/cliente-form.component';
 import { EnderecoFormComponent } from './components/endereco-form/endereco-form.component';
 import { MatTableModule } from '@angular/material/table';
+import { MatIconModule } from '@angular/material/icon';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { MatTableModule } from '@angular/material/table';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    MatTableModule
+    MatTableModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
