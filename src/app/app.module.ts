@@ -6,26 +6,26 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ClienteComponent } from './components/cliente/cliente.component';
 import { EnderecoComponent } from './components/endereco/endereco.component';
-import { ClienteFormComponent } from './components/cliente-form/cliente-form.component';
-import { EnderecoFormComponent } from './components/endereco-form/endereco-form.component';
 import { MatTableModule } from '@angular/material/table';
+import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { MatDialogModule } from '@angular/material/dialog';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ClienteComponent,
-    EnderecoComponent,
-    ClienteFormComponent,
-    EnderecoFormComponent
+    EnderecoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     MatTableModule,
-    MatIconModule
+    MatButtonModule,
+    MatIconModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

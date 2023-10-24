@@ -10,7 +10,7 @@ import { ClienteService } from 'src/app/services/clienteservice';
 })
 
 export class ClienteComponent implements OnInit {
-  displayedColumns: string[] = ['Id', 'Nome', 'Data de Nascimento', 'Sexo'];
+  displayedColumns: string[] = ['Id', 'Nome', 'Data de Nascimento', 'Sexo', 'Ações'];
   dataSource: Cliente[] = [];
 
   constructor(
