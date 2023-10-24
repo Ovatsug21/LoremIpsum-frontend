@@ -15,6 +15,8 @@ import { EnderecoDialogComponent } from './shared/endereco-dialog/endereco-dialo
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './shared/footer/footer.component';
+import { HeaderComponent } from './shared/header/header.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { FormsModule } from '@angular/forms';
     ClienteComponent,
     EnderecoComponent,
     ClienteDialogComponent,
-    EnderecoDialogComponent
+    EnderecoDialogComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
